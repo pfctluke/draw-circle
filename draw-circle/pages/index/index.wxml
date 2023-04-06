@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="scontainer">
+  <canvas type="2d" id="myCanvas" class="canvas"
+    bindtouchstart="touchStart"
+    bindtouchmove="touchMove"
+    bindtouchend="touchEnd">
+  </canvas>
+</view>
